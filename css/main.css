@@ -1,0 +1,21 @@
+.sidebar { /* Controls the width of the sidebar so there is no gap between the map and the sidebar */
+  width: 515px;
+}
+
+#next {
+  color: white; /* Makes text color white for button */
+  background-color: blue; /*Makes background color of button blue to keep with blue and white theme of app (blue and white being the colors of Buffalo's flag) */
+  border: 1px solid blue; /* Sets border around button to be a more solid blue instead of gray */
+  text-align: center; /* Makes the text centered in the button */
+  padding: 4px 6px; /* Makes the button itself bigger */
+  opacity: 0.75; /* Purpose of changing button opacity is to make its prominence look slightly less strong compared to the text below */
+}
+
+ #previous {
+   color: white;
+   background-color: blue;
+   border: 1px solid blue;
+   text-align: center;
+   padding: 4px 6px;
+   opacity: 0.75;
+}

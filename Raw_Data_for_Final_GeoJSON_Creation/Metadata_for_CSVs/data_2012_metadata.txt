@@ -1,0 +1,541 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12074412
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2012 (5-Year Estimates)
+Dataset:          Social Explorer Tables:  ACS 2012 (5-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      T1
+         Variables:
+            T001_001:   Total Population
+
+
+      2. Population Density (Per Sq. Mile)
+         Universe:  Total Population
+         Name:      T2
+         Variables:
+            T002_001:   Total Population
+            T002_002:   Population Density (Per Sq. Mile)
+            T002_003:   Area (Land)
+
+
+      3. Nativity by Citizenship Status
+         Universe:  Total Population
+         Name:      T133
+         Variables:
+            T133_001:   Total Population:
+            T133_002:      Native Born
+            T133_003:      Foreign Born:
+            T133_004:         Naturalized Citizen
+            T133_005:         Not a Citizen
+
+
+      4. Year of Entry for the Foreign-Born Population
+         Universe:  Foreign-born Population
+         Name:      T134
+         Variables:
+            T134_001:   Foreign-Born Population:
+            T134_002:      2010 or Later
+            T134_003:      2000 to 2009
+            T134_004:      1990 to 1999
+            T134_005:      Before 1990
+
+
+      5. Place of Birth for the Foreign-Born Population
+         Universe:  Foreign-born population
+         Name:      T139
+         Variables:
+            T139_001:   Foreign-Born Population:
+            T139_002:      Europe:
+            T139_003:         Northern Europe:
+            T139_004:            United Kingdom:
+            T139_005:               United Kingdom, Excluding England and Scotland
+            T139_006:               England
+            T139_007:               Scotland
+            T139_008:            Ireland
+            T139_009:            Other Northern Europe
+            T139_010:         Western Europe:
+            T139_011:            Austria
+            T139_012:            France
+            T139_013:            Germany
+            T139_014:            Netherlands
+            T139_015:            Other Western Europe
+            T139_016:         Southern Europe:
+            T139_017:            Greece
+            T139_018:            Italy
+            T139_019:            Portugal
+            T139_020:            Spain
+            T139_021:            Other Southern Europe
+            T139_022:         Eastern Europe:
+            T139_023:            Croatia
+            T139_024:            Czechoslovakia (Includes Czech Republic and Slovakia)
+            T139_025:            Hungary
+            T139_026:            Poland
+            T139_027:            Romania
+            T139_028:            Russia
+            T139_029:            Ukraine
+            T139_030:            Bosnia and Herzegovina
+            T139_031:            Serbia
+            T139_032:            Other Eastern Europe
+            T139_033:         Europe, N.e.c.
+            T139_034:      Asia:
+            T139_035:         Eastern Asia:
+            T139_036:            China:
+            T139_037:               China, Excluding Hong Kong and Taiwan
+            T139_038:               Hong Kong
+            T139_039:               Taiwan
+            T139_040:            Japan
+            T139_041:            Korea
+            T139_042:            Other Eastern Asia
+            T139_043:         South Central Asia:
+            T139_044:            Afghanistan
+            T139_045:            Bangladesh
+            T139_046:            India
+            T139_047:            Iran
+            T139_048:            Pakistan
+            T139_049:            Other South Central Asia
+            T139_050:         South Eastern Asia:
+            T139_051:            Cambodia
+            T139_052:            Indonesia
+            T139_053:            Laos
+            T139_054:            Philippines
+            T139_055:            Thailand
+            T139_056:            Vietnam
+            T139_057:            Other South Eastern Asia
+            T139_058:         Western Asia:
+            T139_059:            Iraq
+            T139_060:            Israel
+            T139_061:            Lebanon
+            T139_062:            Syria
+            T139_063:            Turkey
+            T139_064:            Armenia
+            T139_065:            Other Western Asia
+            T139_066:         Asia, N.e.c.
+            T139_067:      Africa:
+            T139_068:         Eastern Africa:
+            T139_069:            Ethiopia
+            T139_070:            Kenya
+            T139_071:            Other Eastern Africa
+            T139_072:         Middle Africa
+            T139_073:         Northern Africa:
+            T139_074:            Egypt
+            T139_075:            Other Northern Africa
+            T139_076:         Southern Africa:
+            T139_077:            South Africa
+            T139_078:            Other Southern Africa
+            T139_079:         Western Africa:
+            T139_080:            Ghana
+            T139_081:            Liberia
+            T139_082:            Nigeria
+            T139_083:            Other Western Africa
+            T139_084:         Africa, N.e.c.
+            T139_085:      Oceania:
+            T139_086:         Australia and New Zealand Subregion:
+            T139_087:            Australia
+            T139_088:            Other Australian and New Zealand Subregion
+            T139_089:         Oceania, N.e.c.
+            T139_090:      Americas:
+            T139_091:         Latin America:
+            T139_092:            Caribbean:
+            T139_093:               Barbados
+            T139_094:               Cuba
+            T139_095:               Dominican Republic
+            T139_096:               Haiti
+            T139_097:               Jamaica
+            T139_098:               Trinidad and Tobago
+            T139_099:               Other Caribbean
+            T139_100:            Central America:
+            T139_101:               Mexico
+            T139_102:               Costa Rica
+            T139_103:               El Salvador
+            T139_104:               Guatemala
+            T139_105:               Honduras
+            T139_106:               Nicaragua
+            T139_107:               Panama
+            T139_108:               Other Central America
+            T139_109:            South America:
+            T139_110:               Argentina
+            T139_111:               Bolivia
+            T139_112:               Brazil
+            T139_113:               Chile
+            T139_114:               Colombia
+            T139_115:               Ecuador
+            T139_116:               Guyana
+            T139_117:               Peru
+            T139_118:               Uruguay
+            T139_119:               Venezuela
+            T139_120:               Other South America
+            T139_121:         Northern America:
+            T139_122:            Canada
+            T139_123:            Other Northern America
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      T001_001:       Total Population
+      T002_001:       Total Population
+      T002_002:       Population Density (Per Sq. Mile)
+      T002_003:       Area (Land)
+      T133_001:       Total Population:
+      T133_002:       Total Population: Native Born
+      T133_003:       Total Population: Foreign Born
+      T133_004:       Total Population: Foreign Born: Naturalized Citizen
+      T133_005:       Total Population: Foreign Born: Not a Citizen
+      PCT_T133_002:   % Total Population: Native Born
+      PCT_T133_003:   % Total Population: Foreign Born
+      PCT_T133_004:   % Total Population: Foreign Born: Naturalized Citizen
+      PCT_T133_005:   % Total Population: Foreign Born: Not a Citizen
+      T134_001:       Foreign-Born Population:
+      T134_002:       Foreign-Born Population: 2010 or Later
+      T134_003:       Foreign-Born Population: 2000 to 2009
+      T134_004:       Foreign-Born Population: 1990 to 1999
+      T134_005:       Foreign-Born Population: Before 1990
+      PCT_T134_002:   % Foreign-Born Population: 2010 or Later
+      PCT_T134_003:   % Foreign-Born Population: 2000 to 2009
+      PCT_T134_004:   % Foreign-Born Population: 1990 to 1999
+      PCT_T134_005:   % Foreign-Born Population: Before 1990
+      T139_001:       Foreign-Born Population:
+      T139_002:       Foreign-Born Population: Europe
+      T139_003:       Foreign-Born Population: Europe: Northern Europe
+      T139_004:       Foreign-Born Population: Europe: Northern Europe: United Kingdom
+      T139_005:       Foreign-Born Population: Europe: Northern Europe: United Kingdom: United Kingdom, Excluding England and Scotland
+      T139_006:       Foreign-Born Population: Europe: Northern Europe: United Kingdom: England
+      T139_007:       Foreign-Born Population: Europe: Northern Europe: United Kingdom: Scotland
+      T139_008:       Foreign-Born Population: Europe: Northern Europe: Ireland
+      T139_009:       Foreign-Born Population: Europe: Northern Europe: Other Northern Europe
+      T139_010:       Foreign-Born Population: Europe: Western Europe
+      T139_011:       Foreign-Born Population: Europe: Western Europe: Austria
+      T139_012:       Foreign-Born Population: Europe: Western Europe: France
+      T139_013:       Foreign-Born Population: Europe: Western Europe: Germany
+      T139_014:       Foreign-Born Population: Europe: Western Europe: Netherlands
+      T139_015:       Foreign-Born Population: Europe: Western Europe: Other Western Europe
+      T139_016:       Foreign-Born Population: Europe: Southern Europe
+      T139_017:       Foreign-Born Population: Europe: Southern Europe: Greece
+      T139_018:       Foreign-Born Population: Europe: Southern Europe: Italy
+      T139_019:       Foreign-Born Population: Europe: Southern Europe: Portugal
+      T139_020:       Foreign-Born Population: Europe: Southern Europe: Spain
+      T139_021:       Foreign-Born Population: Europe: Southern Europe: Other Southern Europe
+      T139_022:       Foreign-Born Population: Europe: Eastern Europe
+      T139_023:       Foreign-Born Population: Europe: Eastern Europe: Croatia
+      T139_024:       Foreign-Born Population: Europe: Eastern Europe: Czechoslovakia (Includes Czech Republic and Slovakia)
+      T139_025:       Foreign-Born Population: Europe: Eastern Europe: Hungary
+      T139_026:       Foreign-Born Population: Europe: Eastern Europe: Poland
+      T139_027:       Foreign-Born Population: Europe: Eastern Europe: Romania
+      T139_028:       Foreign-Born Population: Europe: Eastern Europe: Russia
+      T139_029:       Foreign-Born Population: Europe: Eastern Europe: Ukraine
+      T139_030:       Foreign-Born Population: Europe: Eastern Europe: Bosnia and Herzegovina
+      T139_031:       Foreign-Born Population: Europe: Eastern Europe: Serbia
+      T139_032:       Foreign-Born Population: Europe: Eastern Europe: Other Eastern Europe
+      T139_033:       Foreign-Born Population: Europe: Europe, N.e.c.
+      T139_034:       Foreign-Born Population: Asia
+      T139_035:       Foreign-Born Population: Asia: Eastern Asia
+      T139_036:       Foreign-Born Population: Asia: Eastern Asia: China
+      T139_037:       Foreign-Born Population: Asia: Eastern Asia: China: China, Excluding Hong Kong and Taiwan
+      T139_038:       Foreign-Born Population: Asia: Eastern Asia: China: Hong Kong
+      T139_039:       Foreign-Born Population: Asia: Eastern Asia: China: Taiwan
+      T139_040:       Foreign-Born Population: Asia: Eastern Asia: Japan
+      T139_041:       Foreign-Born Population: Asia: Eastern Asia: Korea
+      T139_042:       Foreign-Born Population: Asia: Eastern Asia: Other Eastern Asia
+      T139_043:       Foreign-Born Population: Asia: South Central Asia
+      T139_044:       Foreign-Born Population: Asia: South Central Asia: Afghanistan
+      T139_045:       Foreign-Born Population: Asia: South Central Asia: Bangladesh
+      T139_046:       Foreign-Born Population: Asia: South Central Asia: India
+      T139_047:       Foreign-Born Population: Asia: South Central Asia: Iran
+      T139_048:       Foreign-Born Population: Asia: South Central Asia: Pakistan
+      T139_049:       Foreign-Born Population: Asia: South Central Asia: Other South Central Asia
+      T139_050:       Foreign-Born Population: Asia: South Eastern Asia
+      T139_051:       Foreign-Born Population: Asia: South Eastern Asia: Cambodia
+      T139_052:       Foreign-Born Population: Asia: South Eastern Asia: Indonesia
+      T139_053:       Foreign-Born Population: Asia: South Eastern Asia: Laos
+      T139_054:       Foreign-Born Population: Asia: South Eastern Asia: Philippines
+      T139_055:       Foreign-Born Population: Asia: South Eastern Asia: Thailand
+      T139_056:       Foreign-Born Population: Asia: South Eastern Asia: Vietnam
+      T139_057:       Foreign-Born Population: Asia: South Eastern Asia: Other South Eastern Asia
+      T139_058:       Foreign-Born Population: Asia: Western Asia
+      T139_059:       Foreign-Born Population: Asia: Western Asia: Iraq
+      T139_060:       Foreign-Born Population: Asia: Western Asia: Israel
+      T139_061:       Foreign-Born Population: Asia: Western Asia: Lebanon
+      T139_062:       Foreign-Born Population: Asia: Western Asia: Syria
+      T139_063:       Foreign-Born Population: Asia: Western Asia: Turkey
+      T139_064:       Foreign-Born Population: Asia: Western Asia: Armenia
+      T139_065:       Foreign-Born Population: Asia: Western Asia: Other Western Asia
+      T139_066:       Foreign-Born Population: Asia: Asia, N.e.c.
+      T139_067:       Foreign-Born Population: Africa
+      T139_068:       Foreign-Born Population: Africa: Eastern Africa
+      T139_069:       Foreign-Born Population: Africa: Eastern Africa: Ethiopia
+      T139_070:       Foreign-Born Population: Africa: Eastern Africa: Kenya
+      T139_071:       Foreign-Born Population: Africa: Eastern Africa: Other Eastern Africa
+      T139_072:       Foreign-Born Population: Africa: Middle Africa
+      T139_073:       Foreign-Born Population: Africa: Northern Africa
+      T139_074:       Foreign-Born Population: Africa: Northern Africa: Egypt
+      T139_075:       Foreign-Born Population: Africa: Northern Africa: Other Northern Africa
+      T139_076:       Foreign-Born Population: Africa: Southern Africa
+      T139_077:       Foreign-Born Population: Africa: Southern Africa: South Africa
+      T139_078:       Foreign-Born Population: Africa: Southern Africa: Other Southern Africa
+      T139_079:       Foreign-Born Population: Africa: Western Africa
+      T139_080:       Foreign-Born Population: Africa: Western Africa: Ghana
+      T139_081:       Foreign-Born Population: Africa: Western Africa: Liberia
+      T139_082:       Foreign-Born Population: Africa: Western Africa: Nigeria
+      T139_083:       Foreign-Born Population: Africa: Western Africa: Other Western Africa
+      T139_084:       Foreign-Born Population: Africa: Africa, N.e.c.
+      T139_085:       Foreign-Born Population: Oceania
+      T139_086:       Foreign-Born Population: Oceania: Australia and New Zealand Subregion
+      T139_087:       Foreign-Born Population: Oceania: Australia and New Zealand Subregion: Australia
+      T139_088:       Foreign-Born Population: Oceania: Australia and New Zealand Subregion: Other Australian and New Zealand Subregion
+      T139_089:       Foreign-Born Population: Oceania: Oceania, N.e.c.
+      T139_090:       Foreign-Born Population: Americas
+      T139_091:       Foreign-Born Population: Americas: Latin America
+      T139_092:       Foreign-Born Population: Americas: Latin America: Caribbean
+      T139_093:       Foreign-Born Population: Americas: Latin America: Caribbean: Barbados
+      T139_094:       Foreign-Born Population: Americas: Latin America: Caribbean: Cuba
+      T139_095:       Foreign-Born Population: Americas: Latin America: Caribbean: Dominican Republic
+      T139_096:       Foreign-Born Population: Americas: Latin America: Caribbean: Haiti
+      T139_097:       Foreign-Born Population: Americas: Latin America: Caribbean: Jamaica
+      T139_098:       Foreign-Born Population: Americas: Latin America: Caribbean: Trinidad and Tobago
+      T139_099:       Foreign-Born Population: Americas: Latin America: Caribbean: Other Caribbean
+      T139_100:       Foreign-Born Population: Americas: Latin America: Central America
+      T139_101:       Foreign-Born Population: Americas: Latin America: Central America: Mexico
+      T139_102:       Foreign-Born Population: Americas: Latin America: Central America: Costa Rica
+      T139_103:       Foreign-Born Population: Americas: Latin America: Central America: El Salvador
+      T139_104:       Foreign-Born Population: Americas: Latin America: Central America: Guatemala
+      T139_105:       Foreign-Born Population: Americas: Latin America: Central America: Honduras
+      T139_106:       Foreign-Born Population: Americas: Latin America: Central America: Nicaragua
+      T139_107:       Foreign-Born Population: Americas: Latin America: Central America: Panama
+      T139_108:       Foreign-Born Population: Americas: Latin America: Central America: Other Central America
+      T139_109:       Foreign-Born Population: Americas: Latin America: South America
+      T139_110:       Foreign-Born Population: Americas: Latin America: South America: Argentina
+      T139_111:       Foreign-Born Population: Americas: Latin America: South America: Bolivia
+      T139_112:       Foreign-Born Population: Americas: Latin America: South America: Brazil
+      T139_113:       Foreign-Born Population: Americas: Latin America: South America: Chile
+      T139_114:       Foreign-Born Population: Americas: Latin America: South America: Colombia
+      T139_115:       Foreign-Born Population: Americas: Latin America: South America: Ecuador
+      T139_116:       Foreign-Born Population: Americas: Latin America: South America: Guyana
+      T139_117:       Foreign-Born Population: Americas: Latin America: South America: Peru
+      T139_118:       Foreign-Born Population: Americas: Latin America: South America: Uruguay
+      T139_119:       Foreign-Born Population: Americas: Latin America: South America: Venezuela
+      T139_120:       Foreign-Born Population: Americas: Latin America: South America: Other South America
+      T139_121:       Foreign-Born Population: Americas: Northern America
+      T139_122:       Foreign-Born Population: Americas: Northern America: Canada
+      T139_123:       Foreign-Born Population: Americas: Northern America: Other Northern America
+      PCT_T139_002:   % Foreign-Born Population: Europe
+      PCT_T139_003:   % Foreign-Born Population: Europe: Northern Europe
+      PCT_T139_004:   % Foreign-Born Population: Europe: Northern Europe: United Kingdom
+      PCT_T139_005:   % Foreign-Born Population: Europe: Northern Europe: United Kingdom: United Kingdom, Excluding England and Scotland
+      PCT_T139_006:   % Foreign-Born Population: Europe: Northern Europe: United Kingdom: England
+      PCT_T139_007:   % Foreign-Born Population: Europe: Northern Europe: United Kingdom: Scotland
+      PCT_T139_008:   % Foreign-Born Population: Europe: Northern Europe: Ireland
+      PCT_T139_009:   % Foreign-Born Population: Europe: Northern Europe: Other Northern Europe
+      PCT_T139_010:   % Foreign-Born Population: Europe: Western Europe
+      PCT_T139_011:   % Foreign-Born Population: Europe: Western Europe: Austria
+      PCT_T139_012:   % Foreign-Born Population: Europe: Western Europe: France
+      PCT_T139_013:   % Foreign-Born Population: Europe: Western Europe: Germany
+      PCT_T139_014:   % Foreign-Born Population: Europe: Western Europe: Netherlands
+      PCT_T139_015:   % Foreign-Born Population: Europe: Western Europe: Other Western Europe
+      PCT_T139_016:   % Foreign-Born Population: Europe: Southern Europe
+      PCT_T139_017:   % Foreign-Born Population: Europe: Southern Europe: Greece
+      PCT_T139_018:   % Foreign-Born Population: Europe: Southern Europe: Italy
+      PCT_T139_019:   % Foreign-Born Population: Europe: Southern Europe: Portugal
+      PCT_T139_020:   % Foreign-Born Population: Europe: Southern Europe: Spain
+      PCT_T139_021:   % Foreign-Born Population: Europe: Southern Europe: Other Southern Europe
+      PCT_T139_022:   % Foreign-Born Population: Europe: Eastern Europe
+      PCT_T139_023:   % Foreign-Born Population: Europe: Eastern Europe: Croatia
+      PCT_T139_024:   % Foreign-Born Population: Europe: Eastern Europe: Czechoslovakia (Includes Czech Republic and Slovakia)
+      PCT_T139_025:   % Foreign-Born Population: Europe: Eastern Europe: Hungary
+      PCT_T139_026:   % Foreign-Born Population: Europe: Eastern Europe: Poland
+      PCT_T139_027:   % Foreign-Born Population: Europe: Eastern Europe: Romania
+      PCT_T139_028:   % Foreign-Born Population: Europe: Eastern Europe: Russia
+      PCT_T139_029:   % Foreign-Born Population: Europe: Eastern Europe: Ukraine
+      PCT_T139_030:   % Foreign-Born Population: Europe: Eastern Europe: Bosnia and Herzegovina
+      PCT_T139_031:   % Foreign-Born Population: Europe: Eastern Europe: Serbia
+      PCT_T139_032:   % Foreign-Born Population: Europe: Eastern Europe: Other Eastern Europe
+      PCT_T139_033:   % Foreign-Born Population: Europe: Europe, N.e.c.
+      PCT_T139_034:   % Foreign-Born Population: Asia
+      PCT_T139_035:   % Foreign-Born Population: Asia: Eastern Asia
+      PCT_T139_036:   % Foreign-Born Population: Asia: Eastern Asia: China
+      PCT_T139_037:   % Foreign-Born Population: Asia: Eastern Asia: China: China, Excluding Hong Kong and Taiwan
+      PCT_T139_038:   % Foreign-Born Population: Asia: Eastern Asia: China: Hong Kong
+      PCT_T139_039:   % Foreign-Born Population: Asia: Eastern Asia: China: Taiwan
+      PCT_T139_040:   % Foreign-Born Population: Asia: Eastern Asia: Japan
+      PCT_T139_041:   % Foreign-Born Population: Asia: Eastern Asia: Korea
+      PCT_T139_042:   % Foreign-Born Population: Asia: Eastern Asia: Other Eastern Asia
+      PCT_T139_043:   % Foreign-Born Population: Asia: South Central Asia
+      PCT_T139_044:   % Foreign-Born Population: Asia: South Central Asia: Afghanistan
+      PCT_T139_045:   % Foreign-Born Population: Asia: South Central Asia: Bangladesh
+      PCT_T139_046:   % Foreign-Born Population: Asia: South Central Asia: India
+      PCT_T139_047:   % Foreign-Born Population: Asia: South Central Asia: Iran
+      PCT_T139_048:   % Foreign-Born Population: Asia: South Central Asia: Pakistan
+      PCT_T139_049:   % Foreign-Born Population: Asia: South Central Asia: Other South Central Asia
+      PCT_T139_050:   % Foreign-Born Population: Asia: South Eastern Asia
+      PCT_T139_051:   % Foreign-Born Population: Asia: South Eastern Asia: Cambodia
+      PCT_T139_052:   % Foreign-Born Population: Asia: South Eastern Asia: Indonesia
+      PCT_T139_053:   % Foreign-Born Population: Asia: South Eastern Asia: Laos
+      PCT_T139_054:   % Foreign-Born Population: Asia: South Eastern Asia: Philippines
+      PCT_T139_055:   % Foreign-Born Population: Asia: South Eastern Asia: Thailand
+      PCT_T139_056:   % Foreign-Born Population: Asia: South Eastern Asia: Vietnam
+      PCT_T139_057:   % Foreign-Born Population: Asia: South Eastern Asia: Other South Eastern Asia
+      PCT_T139_058:   % Foreign-Born Population: Asia: Western Asia
+      PCT_T139_059:   % Foreign-Born Population: Asia: Western Asia: Iraq
+      PCT_T139_060:   % Foreign-Born Population: Asia: Western Asia: Israel
+      PCT_T139_061:   % Foreign-Born Population: Asia: Western Asia: Lebanon
+      PCT_T139_062:   % Foreign-Born Population: Asia: Western Asia: Syria
+      PCT_T139_063:   % Foreign-Born Population: Asia: Western Asia: Turkey
+      PCT_T139_064:   % Foreign-Born Population: Asia: Western Asia: Armenia
+      PCT_T139_065:   % Foreign-Born Population: Asia: Western Asia: Other Western Asia
+      PCT_T139_066:   % Foreign-Born Population: Asia: Asia, N.e.c.
+      PCT_T139_067:   % Foreign-Born Population: Africa
+      PCT_T139_068:   % Foreign-Born Population: Africa: Eastern Africa
+      PCT_T139_069:   % Foreign-Born Population: Africa: Eastern Africa: Ethiopia
+      PCT_T139_070:   % Foreign-Born Population: Africa: Eastern Africa: Kenya
+      PCT_T139_071:   % Foreign-Born Population: Africa: Eastern Africa: Other Eastern Africa
+      PCT_T139_072:   % Foreign-Born Population: Africa: Middle Africa
+      PCT_T139_073:   % Foreign-Born Population: Africa: Northern Africa
+      PCT_T139_074:   % Foreign-Born Population: Africa: Northern Africa: Egypt
+      PCT_T139_075:   % Foreign-Born Population: Africa: Northern Africa: Other Northern Africa
+      PCT_T139_076:   % Foreign-Born Population: Africa: Southern Africa
+      PCT_T139_077:   % Foreign-Born Population: Africa: Southern Africa: South Africa
+      PCT_T139_078:   % Foreign-Born Population: Africa: Southern Africa: Other Southern Africa
+      PCT_T139_079:   % Foreign-Born Population: Africa: Western Africa
+      PCT_T139_080:   % Foreign-Born Population: Africa: Western Africa: Ghana
+      PCT_T139_081:   % Foreign-Born Population: Africa: Western Africa: Liberia
+      PCT_T139_082:   % Foreign-Born Population: Africa: Western Africa: Nigeria
+      PCT_T139_083:   % Foreign-Born Population: Africa: Western Africa: Other Western Africa
+      PCT_T139_084:   % Foreign-Born Population: Africa: Africa, N.e.c.
+      PCT_T139_085:   % Foreign-Born Population: Oceania
+      PCT_T139_086:   % Foreign-Born Population: Oceania: Australia and New Zealand Subregion
+      PCT_T139_087:   % Foreign-Born Population: Oceania: Australia and New Zealand Subregion: Australia
+      PCT_T139_088:   % Foreign-Born Population: Oceania: Australia and New Zealand Subregion: Other Australian and New Zealand Subregion
+      PCT_T139_089:   % Foreign-Born Population: Oceania: Oceania, N.e.c.
+      PCT_T139_090:   % Foreign-Born Population: Americas
+      PCT_T139_091:   % Foreign-Born Population: Americas: Latin America
+      PCT_T139_092:   % Foreign-Born Population: Americas: Latin America: Caribbean
+      PCT_T139_093:   % Foreign-Born Population: Americas: Latin America: Caribbean: Barbados
+      PCT_T139_094:   % Foreign-Born Population: Americas: Latin America: Caribbean: Cuba
+      PCT_T139_095:   % Foreign-Born Population: Americas: Latin America: Caribbean: Dominican Republic
+      PCT_T139_096:   % Foreign-Born Population: Americas: Latin America: Caribbean: Haiti
+      PCT_T139_097:   % Foreign-Born Population: Americas: Latin America: Caribbean: Jamaica
+      PCT_T139_098:   % Foreign-Born Population: Americas: Latin America: Caribbean: Trinidad and Tobago
+      PCT_T139_099:   % Foreign-Born Population: Americas: Latin America: Caribbean: Other Caribbean
+      PCT_T139_100:   % Foreign-Born Population: Americas: Latin America: Central America
+      PCT_T139_101:   % Foreign-Born Population: Americas: Latin America: Central America: Mexico
+      PCT_T139_102:   % Foreign-Born Population: Americas: Latin America: Central America: Costa Rica
+      PCT_T139_103:   % Foreign-Born Population: Americas: Latin America: Central America: El Salvador
+      PCT_T139_104:   % Foreign-Born Population: Americas: Latin America: Central America: Guatemala
+      PCT_T139_105:   % Foreign-Born Population: Americas: Latin America: Central America: Honduras
+      PCT_T139_106:   % Foreign-Born Population: Americas: Latin America: Central America: Nicaragua
+      PCT_T139_107:   % Foreign-Born Population: Americas: Latin America: Central America: Panama
+      PCT_T139_108:   % Foreign-Born Population: Americas: Latin America: Central America: Other Central America
+      PCT_T139_109:   % Foreign-Born Population: Americas: Latin America: South America
+      PCT_T139_110:   % Foreign-Born Population: Americas: Latin America: South America: Argentina
+      PCT_T139_111:   % Foreign-Born Population: Americas: Latin America: South America: Bolivia
+      PCT_T139_112:   % Foreign-Born Population: Americas: Latin America: South America: Brazil
+      PCT_T139_113:   % Foreign-Born Population: Americas: Latin America: South America: Chile
+      PCT_T139_114:   % Foreign-Born Population: Americas: Latin America: South America: Colombia
+      PCT_T139_115:   % Foreign-Born Population: Americas: Latin America: South America: Ecuador
+      PCT_T139_116:   % Foreign-Born Population: Americas: Latin America: South America: Guyana
+      PCT_T139_117:   % Foreign-Born Population: Americas: Latin America: South America: Peru
+      PCT_T139_118:   % Foreign-Born Population: Americas: Latin America: South America: Uruguay
+      PCT_T139_119:   % Foreign-Born Population: Americas: Latin America: South America: Venezuela
+      PCT_T139_120:   % Foreign-Born Population: Americas: Latin America: South America: Other South America
+      PCT_T139_121:   % Foreign-Born Population: Americas: Northern America
+      PCT_T139_122:   % Foreign-Born Population: Americas: Northern America: Canada
+      PCT_T139_123:   % Foreign-Born Population: Americas: Northern America: Other Northern America
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2019
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12074412
+
+If you have any questions contact info@socialexplorer.com
